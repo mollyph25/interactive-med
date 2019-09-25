@@ -1,0 +1,828 @@
+.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+.letter div{
+	position: absolute;
+}
+.letter-a{
+	width: 200px;
+	height:300px;
+}
+			.aleft {
+				top: 20px;
+				left: 40px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.aright {
+				top: 20px;
+				left: 125px;
+				width: 35px;
+				height: 260px;
+				transform: skew(15deg);
+				background: black;
+			}
+			.acrossbar{
+				background: black;
+				width: 110px;
+				height: 35px;
+				top: 175px;
+				left: 50px;
+			}
+}
+.letter-b{
+	width: 200px;
+	height:300px;
+}
+		.bstem{
+				background: black;
+				width: 70px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+		}
+		.bcircle{
+				background: black;
+				width:150px;
+				height:145px;
+				top: 20px;
+				left:20px;
+				border-radius: 75px;
+			}
+
+		.bsteminside{
+				background: white;
+				width: 40px;
+				height: 85px;
+				top: 50px;
+				left:55px;
+			}
+		.bcircleinside{
+				background: white;
+				width:70px;
+				height:85px;
+				top: 50px;
+				left:60px;
+				border-radius: 75px;
+			}
+		.bcircle2{
+				background: black;
+				width:150px;
+				height:145px;
+				top: 135px;
+				left:20px;
+				border-radius: 75px;
+			}
+
+		.bsteminside2{
+				background: white;
+				width: 40px;
+				height: 85px;
+				top: 165px;
+				left:55px;
+			}
+		.bcircleinside2{
+				background: white;
+				width:70px;
+				height:85px;
+				top: 165px;
+				left:60px;
+				border-radius: 75px;
+			}
+.letter-c{
+	width: 200px;
+	height:300px;
+}
+		.c-outer{
+				background: black;
+				width:180px;
+				height:260px;
+				top: 20px;
+				left:10px;
+				border-radius: 75px;
+			}
+		.c-inside{
+				background: white;
+				width:110px;
+				height:190px;
+				top: 55px;
+				left:45px;
+				border-radius: 50px;
+			}
+		.c-midspace{
+				background: white;
+				width:50px;
+				height:120px;
+				top: 90px;
+				left:150px;
+		}
+.letter-d{
+	width: 200px;
+	height:300px;
+}
+			.dstem{
+				background: black;
+				width: 100px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.dcircle{
+				background: black;
+				width:150px;
+				height:260px;
+				top: 20px;
+				left:40px;
+				border-radius: 75px;
+			}
+			.dsteminside{
+				background: white;
+				width: 60px;
+				height: 190px;
+				top: 55px;
+				left:55px;
+			}
+			.dcircleinside{
+				background: white;
+				width:90px;
+				height:190px;
+				top: 55px;
+				left:65px;
+				border-radius: 75px;
+			}
+.letter-e{
+	width: 200px;
+	height:300px;
+}
+			.eblock{
+				background: black;
+				width: 160px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.espace{
+				background: white;
+				width: 125px;
+				height: 77.5px;
+				top: 55px;
+				left: 55px;
+			}
+			.espace2{
+				background: white;
+				width: 125px;
+				height: 77.5px;
+				top: 167.5px;
+				left: 55px;
+			}
+.letter-f{
+	width: 200px;
+	height:300px;
+}
+			.fblock{
+				background: black;
+				width: 160px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.fspace{
+				background: white;
+				width: 125px;
+				height: 77.5px;
+				top: 55px;
+				left: 55px;
+			}
+			.fspace2{
+				background: white;
+				width: 125px;
+				height: 112.5px;
+				top: 167.5px;
+				left: 55px;
+			}
+.letter-g{
+	width: 200px;
+	height:300px;
+}
+		.g-outer{
+				background: black;
+				width:180px;
+				height:260px;
+				top: 20px;
+				left:10px;
+				border-radius: 75px;
+			}
+		.g-inside{
+				background: white;
+				width:110px;
+				height:190px;
+				top: 55px;
+				left:45px;
+				border-radius: 50px;
+			}
+		.g-midspace{
+				background: white;
+				width:50px;
+				height:90px;
+				top: 90px;
+				left:150px;
+		}
+		.g-crossbar{
+				background: black;
+				width:90px;
+				height:35px;
+				top: 150px;
+				left:100px;
+		}
+.letter-h{
+	width: 200px;
+	height:300px;
+}
+			.hblock{
+				background: black;
+				width: 160px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.hspace{
+				background: white;
+				width: 90px;
+				height: 112.5px;
+				top: 20px;
+				left: 55px;
+			}
+			.hspace2{
+				background: white;
+				width: 90px;
+				height: 112.5px;
+				top: 167.5px;
+				left: 55px;
+			}
+.letter-i{
+	width: 200px;
+	height:300px;
+}
+			.istem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 80px;
+			}
+			.itop{
+				background: black;
+				width: 95px;
+				height: 35px;
+				top: 20px;
+				left: 50px;
+			}
+			.ibottom{
+				background: black;
+				width: 95px;
+				height: 35px;
+				top: 245px;
+				left: 50px;
+			}
+.letter-j{
+	width: 200px;
+	height:300px;
+}
+			.jstem{
+				background: black;
+				width: 35px;
+				height: 200px;
+				top: 20px;
+				left: 120px;
+			}
+			.jtop{
+				background: black;
+				width: 95px;
+				height: 35px;
+				top: 20px;
+				left: 50px;
+			}
+			.jcircle{
+				background: black;
+				width:120px;
+				height:150px;
+				top: 130px;
+				left:35px;
+				border-radius: 75px;
+			}
+			.jspace{
+				background: white;
+				width: 85px;
+				height: 80px;
+				top: 130px;
+				left: 35px;
+			}
+			.jcircleinside{
+				background: white;
+				width: 50px;
+				height:80px;
+				top: 160px;
+				left:70px;
+				border-radius: 75px;
+			}
+.letter-k{
+	width: 200px;
+	height:300px;
+}
+			.kstem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.k-up {
+				top: 20px;
+				left: 80px;
+				width: 40px;
+				height: 150px;
+				transform: skew(-35deg);
+				background: black;
+			}
+			.k-down {
+				top: 130px;
+				left: 80px;
+				width: 40px;
+				height: 150px;
+				transform: skew(35deg);
+				background: black;
+			}
+.letter-l{
+	width: 200px;
+	height:300px;
+}
+			.lstem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.lbottom{
+				background: black;
+				width: 160px;
+				height: 35px;
+				top: 245px;
+				left: 20px;
+			}
+.letter-m{
+	width: 200px;
+	height:300px;
+}
+			.mstem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.mstem2{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 150px;
+			}
+			.mleft {
+				top: 20px;
+				left: 110px;
+				width: 35px;
+				height: 150px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.mright {
+				top: 20px;
+				left: 60px;
+				width: 35px;
+				height: 150px;
+				transform: skew(15deg);
+				background: black;
+			}
+.letter-n{
+	width: 200px;
+	height:300px;
+}
+			.nstem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.nstem2{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 150px;
+			}
+			.ncross{
+				top: 20px;
+				left: 85px;
+				width: 35px;
+				height: 260px;
+				transform: skew(20deg);
+				background: black;
+			}
+.letter-o{
+	width: 200px;
+	height:300px;
+}
+			.o-outer{
+				background: black;
+				width:180px;
+				height:260px;
+				top: 20px;
+				left:10px;
+				border-radius: 75px;
+			}
+			.o-inside{
+				background: white;
+				width:110px;
+				height:190px;
+				top: 55px;
+				left:45px;
+				border-radius: 50px;
+			}
+.letter-p{
+	width: 200px;
+	height:300px;
+}
+			.pstem{
+				background: black;
+				width: 70px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.pcircle{
+				background: black;
+				width:150px;
+				height:145px;
+				top: 20px;
+				left:20px;
+				border-radius: 75px;
+			}
+
+			.psteminside{
+				background: white;
+				width: 40px;
+				height: 85px;
+				top: 50px;
+				left:55px;
+			}
+			.pcircleinside{
+				background: white;
+				width:70px;
+				height:85px;
+				top: 50px;
+				left:60px;
+				border-radius: 75px;
+			}
+			.psteminside2{
+				background: white;
+				width: 40px;
+				height: 120px;
+				top: 165px;
+				left:55px;
+			}
+.letter-q{
+	width: 200px;
+	height:300px;
+}
+			.q-outer{
+				background: black;
+				width:180px;
+				height:260px;
+				top: 20px;
+				left:10px;
+				border-radius: 75px;
+			}
+			.q-inside{
+				background: white;
+				width:110px;
+				height:190px;
+				top: 55px;
+				left:45px;
+				border-radius: 50px;
+			}
+			.q-tail{
+				top: 180px;
+				left: 130px;
+				width: 40px;
+				height: 100px;
+				transform: skew(30deg);
+				background: black;
+			}
+.letter-r{
+	width: 200px;
+	height:300px;
+}
+			.rstem{
+				background: black;
+				width: 70px;
+				height: 260px;
+				top: 20px;
+				left: 20px;
+			}
+			.rcircle{
+				background: black;
+				width:150px;
+				height:145px;
+				top: 20px;
+				left:20px;
+				border-radius: 75px;
+			}
+
+			.rsteminside{
+				background: white;
+				width: 40px;
+				height: 85px;
+				top: 50px;
+				left:55px;
+			}
+			.rcircleinside{
+				background: white;
+				width:70px;
+				height:85px;
+				top: 50px;
+				left:60px;
+				border-radius: 75px;
+			}
+			.rsteminside2{
+				background: white;
+				width: 40px;
+				height: 120px;
+				top: 165px;
+				left:55px;
+			}
+			.rdown {
+				top: 140px;
+				left: 80px;
+				width: 40px;
+				height: 140px;
+				transform: skew(35deg);
+				background: black;
+			}
+.letter-s{
+	width: 200px;
+	height:300px;
+}
+			.s-upper {
+				background: black;
+				width:180px;
+				height:130px;
+				top: 20px;
+				left:10px;
+				border-radius: 75px;
+			}
+			.s-lower {
+				background: black;
+				width:180px;
+				height:135px;
+				top: 145px;
+				left:12px;
+				border-radius: 75px;
+			}
+			.s-upper-in {
+				background: white;
+				width:110px;
+				height:70px;
+				top: 50px;
+				left:45px;
+				border-radius: 75px;
+			}
+			.s-lower-in {
+				background: white;
+				width:110px;
+				height:70px;
+				top: 180px;
+				left:45px;
+				border-radius: 75px;
+			}
+			.s-upper-cheo {
+				background: white;
+				width:155px;
+				height:50px;
+				top: 91.5px;
+				left:50px;
+				border-radius: 75px;
+				transform: rotate(24deg);
+			}
+			.s-lower-cheo {
+				background: white;
+				width:150px;
+				height:50px;
+				top: 158px;
+				left:0px;
+				border-radius: 75px;
+				transform: rotate(24deg);
+			}
+			.s-upper-square{
+				background: white;
+				width:80px;
+				height:50px;
+				top: 85px;
+				left:110px;
+			}
+			.s-lower-square{
+				background: white;
+				width:50px;
+				height:50px;
+				top: 165px;
+				left:0px;
+			}
+.letter-t{
+	width: 200px;
+	height:300px;
+}
+			.tstem{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top: 20px;
+				left: 80px;
+			}
+			.ttop{
+				background: black;
+				width: 160px;
+				height: 35px;
+				top: 20px;
+				left: 20px;
+			}
+.letter-u{
+	width: 200px;
+	height:300px;
+}
+			.u-outer{
+				background: black;
+				width:180px;
+				height:260px;
+				top: 20px;
+				left:10px;
+				border-radius: 0px 0px 75px 75px;
+			}
+			.u-inside{
+				background: white;
+				width:110px;
+				height:225px;
+				top: 20px;
+				left:45px;
+				border-radius: 0px 0px 50px 50px;
+			}
+.letter-v{
+	width: 200px;
+	height:300px;
+}
+			.vleft {
+				top: 20px;
+				left: 125px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.vright {
+				top: 20px;
+				left: 40px;
+				width: 35px;
+				height: 260px;
+				transform: skew(15deg);
+				background: black;
+			}
+.letter-v{
+	width: 200px;
+	height:300px;
+}
+			.vleft {
+				top: 20px;
+				left: 125px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.vright {
+				top: 20px;
+				left: 40px;
+				width: 35px;
+				height: 260px;
+				transform: skew(15deg);
+				background: black;
+			}
+.letter-w{
+	width: 350px;
+	height:300px;
+}
+			.wleft {
+				top: 100px;
+				left: 125px;
+				width: 35px;
+				height: 180px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.wright {
+				top: 20px;
+				left: 60px;
+				width: 35px;
+				height: 260px;
+				transform: skew(15deg);
+				background: black;
+			}		
+			.wleft2 {
+				top: 20px;
+				left: 240px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-15deg);
+				background: black;
+			}
+			.wright2 {
+				top: 100px;
+				left: 175px;
+				width: 35px;
+				height: 180px;
+				transform: skew(15deg);
+				background: black;
+			}
+.letter-x{
+	width: 200px;
+	height:300px;
+}
+			.xleft {
+				top: 20px;
+				left: 80px;
+				width: 40px;
+				height: 260px;
+				transform: skew(-25deg);
+				background: black;
+			}
+			.xright {
+				top: 20px;
+				left: 80px;
+				width: 40px;
+				height: 260px;
+				transform: skew(25deg);
+				background: black;
+			}	
+.letter-y{
+	width: 200px;
+	height:300px;
+}
+			.yleft {
+				top: 20px;
+				left: 80px;
+				width: 40px;
+				height: 260px;
+				transform: skew(-25deg);
+				background: black;
+			}
+			.yright {
+				top: 20px;
+				left: 50px;
+				width: 40px;
+				height: 130px;
+				transform: skew(25deg);
+				background: black;
+			}		
+.letter-z{
+	width: 200px;
+	height:300px;
+}
+			.zleft {
+				top: 55px;
+				left: 80px;
+				width: 40px;
+				height: 190px;
+				transform: skew(-32deg);
+				background: black;
+			}				
+			.ztop{
+				background: black;
+				width: 160px;
+				height: 35px;
+				top: 20px;
+				left: 20px;
+			}
+			.zbottom{
+				background: black;
+				width: 160px;
+				height: 35px;
+				top: 245px;
+				left: 20px;
+			}

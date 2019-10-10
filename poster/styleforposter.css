@@ -1,162 +1,181 @@
 
 body {
-	background-image: linear-gradient(#AA0061, #A08BCB);
-	column-width: 800px;
+	background: #2F2FA2;
+}
+.container {
+	display: grid; /*coding game: grid garden*/
+	grid-template-columns: 1fr 3fr; /*coding game: grid garden*/
+}
+.title1{
+	width: 400px;
+    height: 180px;
+    position: absolute;
+    margin-top: 0px; /* https://www.w3schools.com/cssref/pr_margin-top.asp*/
+}
+
+.title2{
+	width: 200px;
+    height: 180px;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 142px; /*https://www.w3schools.com/cssref/pr_margin-left.asp*/
+}
+.title3{
+	width: 400px;
+	height: 180px;
+	margin-top: -90px;
 }
 h1{
 	font-family: titling-gothic-fb-compressed, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 524pt;
-	z-index: -2;
-	top: -585px;
-	left:450px;
-	color: #A08BCB;
-	position: absolute;
-	opacity: 0.5;
-}
-h8{
-	font-family: titling-gothic-fb-compressed, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 524pt;
-	z-index: -2;
-	top: 0px;
-	left:450px;
-	color: #A08BCB;
-	position: absolute;
-	opacity: 0.5;
-}
-h9{
-	font-family: titling-gothic-fb-compressed, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 524pt;
-	z-index: -2;
-	top: 110px;
-	left:450px;
-	color: #A08BCB;
-	position: absolute;
-	opacity: 0.5;
-}
-
-
-.title1{
-	width: 1100px;
-	height: 180px;
-	z-index: -2;
-	margin-top: 155px;
-	margin-left: 0px;
-}
-.title2{
-	width: 800px;
-	height: 180px;
-	margin-left: 0px;
-	z-index: -2;
-}
-
-h3{
-	text-transform: uppercase;
-	margin: -425px 0 0 50px;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20pt;
-	color: white;
-	opacity: 0.5;
-}
-h4{
-	text-transform: uppercase;
-	margin: 10px 0 0 50px;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20pt;
-	color: white;
-	opacity: 0.5;
-}
-.p1{
-	margin: 400px 0 0 50px;
-	width: 665px;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;	
-	font-size: 14pt;
-	color: white;
-	opacity: 0.5;
-	
+    font-weight: 400;
+    font-style: normal;
+    font-size: 360pt;
+    z-index: -1;
+    top: -400px;
+    left: 19px;
+    color: #F64C72;
+    position: absolute;
+    opacity: 0.5;
 }
 h2{
-	margin: 100px 0 0 50px;
-	text-transform: uppercase;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20pt;
-	color: #AA0061;
-
+	font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 333pt;
+    z-index: -2; /*https://www.w3schools.com/cssref/pr_pos_z-index.asp*/
+    top: -102px;
+    left: 22px;
+    color: #F64C72;
+    opacity: 0.5;
+    position: absolute;
+    z-index:0;
+}
+.bluebox{
+    background-color: black;
+    opacity:0.3;
+    width: 1052px;
+    height: 700px;
+    margin-left: 349px;
+    margin-top: -10px;
+    position: absolute;
+    z-index: -2;
+}
+.info{
+    height: 700px;
+    grid-column-start: 2;
+    margin-left: -51px;
+    margin-top: -10px;
+}
+h3{
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F64C72;
+    font-size: 30pt;
+    letter-spacing: 2px;/*https://www.sitepoint.com/tracking-css-letter-spacing-and-where-to-use-it/*/
+}
+.p1{
+    margin: 120px 0 0 40px;
+    width: 675px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; /*https://www.uvm.edu/~bnelson/computer/css/changethespacingbetweenlines.html*/
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+h4{
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F64C72;
+    font-size: 30pt;
+    letter-spacing: 2px;
 }
 h5{
-	margin: 0px 0 0 50px;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 15pt;
-	color: white;
-	opacity: 0.5;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: 18pt;
+    letter-spacing: 2px;
+}
+.list{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1px;
+    grid-column-gap: 45px;
+    width: 1000px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 40px;
+} 
+strong{
+	font-weight:400;
 }
 h6{
-	margin: 0px 0 0 50px;
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
+	text-transform: uppercase;
+    position: absolute;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+	font-weight: 200;
 	font-style: normal;
-	font-size: 15pt;
-	color: white;
-	opacity: 0.5;
-}
-.item1{
-	margin: 40px 0 0 50px;
-	width: 400px;
-}
-.item2{
-	margin: -133px 0 0 500px;
-	width: 400px;
-}
-.item3{
-	margin: -153px 0 0 950px;
-	width: 400px;
+    color: #F64C72;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    margin: 0;
 }
 h7{
-	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
+	text-transform: uppercase;
+    position: absolute;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+	font-weight: 200;
 	font-style: normal;
-	font-size: 15pt;
-	color: #AA0061;
+    color: #F64C72;
+    font-size: 18pt;
+    letter-spacing: 2px;
+    margin-top: 30px;
 }
 p{
 	text-align: left;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 12pt;
-	color: white;
-	opacity: 0.5;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15pt;
+    font-size: 11pt;
+    margin-top: 65px;
+    color: white;
+    position:relative;
+    z-index: 2;
 }
 h10{
-	margin: 0 200px 0px 250px;
-	text-align: center;
-	font-family: myriad-pro, sans-serif;
-	font-weight: 700;
+	text-transform: uppercase;
+    position: absolute;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+	font-weight: 200;
 	font-style: normal;
-	font-size: 12pt;
-	color: #AA0061;
-	opacity: 0.5;
-	
+    color: #F64C72;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: 40px;
 }

@@ -3,7 +3,6 @@ for(var i = 0; i<50; i++){
 	var index = i +1;
 	$("#box"+index).css("order", random);
 }; 
-$(".container").sortable();
 
 $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/draggable/#snap-to*/
       revert: "invalid",

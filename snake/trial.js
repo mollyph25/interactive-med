@@ -62,28 +62,3 @@ $("#dropbox48").droppable({ accept: "#box48" });
 $("#dropbox49").droppable({ accept: "#box49" });
 $("#dropbox50").droppable({ accept: "#box50" });
 
-
-
-
-
-  /*$(".dropSquare").droppable(
-    drop: function(event, ui) {
-      $(this).append($(".square"));
-    }
-  });*/
-
-
-
-/*
-$("#box2").draggable({snap:"#dropbox2", snapMode:"inner"});
-$("#dropbox2").droppable();
-
-$("#box3").draggable({snap:"#dropbox3", snapMode:"inner"});
-$("#dropbox3").droppable();*/
-	/*function(){
-	$(this).toggleClass("active")
-
-	if ( $(this).hasClass("dropbox1") ){
-		$("#dropbox1").toggleClass("dropbox1.active")
-	}
-});*/

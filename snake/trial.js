@@ -11,7 +11,7 @@ $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/dragg
       snapTolerance: 40
     });
 
-$("#dropbox1").droppable({ accept: "#box1" });
+$("#dropbox1").droppable({ accept: "#box1" }); /*this is referenced from https://jqueryui.com/droppable/#accepted-elements*/
 $("#dropbox2").droppable({ accept: "#box2" });
 $("#dropbox3").droppable({ accept: "#box3" });
 $("#dropbox4").droppable({ accept: "#box4" });

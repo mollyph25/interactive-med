@@ -9,7 +9,17 @@
 	<h>Website is</h>
     <img src="tea-04.jpg" alt="cup of tea" height="200" width="250">
     <h2>a cup of tea!</h2>
+    <h3>or anything you want it to be</h3>
+    <div class="bg"></div>
 	<p>In my opinion, the website is like a cup of tea. It is simple and plain, which offers you so many opportunities to refine it and do it the way you want. You can add lemon, milk, honey, ice or anything you want to create your favorite cup of tea, just like how you add as many elements as you like on your website and redo or redesign it if you do not feel fit. There is no limit to what you can do.</p>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("h2").hover(function(){
+	    $("h3").css("background-color", "#9B7DD4");
+	  });
+	});
+</script>
 </body>
 </html>

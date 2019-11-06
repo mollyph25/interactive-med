@@ -1,4 +1,48 @@
 body{
-	background-color:  black;
-	color: white;
+	background-color:  white;
+	color: black;
+}
+h{
+	text-transform: uppercase;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    letter-spacing: 2px;
+}
+img{
+	position: relative;
+	margin-top: 130px;
+    margin-left: 20px;
+}
+h2{
+	text-transform: uppercase;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    letter-spacing: 2px;
+}
+p{
+	background-color: lavender;
+	position: relative;
+	margin-top: 50px;
+    margin-left: 20px;
+    width: 575px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; 
+    font-size: 14pt;
+    color: black;
+    letter-spacing: 0.5px;
 }

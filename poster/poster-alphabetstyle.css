@@ -1,27 +1,25 @@
-body{
-	background: darkblue;}
 .letter {
 
-        		width:200px; /*resize as you see fit */
-        		height:300px; /*resize as you see fit */
+        		width:50px; /*resize as you see fit */
+        		height:75px; /*resize as you see fit */
         		display: inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
         		border:none; /*feel free to remove or hide this rule */
         		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
-        		transform:scale(0.5);
+        		transform:scale(0.25);
         	}
 
 .letter div{
 	position: absolute;
 }
 .letter-a{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.aleft {
 				top: 20px;
 				left: 40px;
 				width: 35px;
 				height: 260px;
-				transform: skew(-15deg);
+				transform: skew(-15deg); /*https://www.w3schools.com/css/css3_2dtransforms.asp*/
 				background: white;
 			}
 			.aright {
@@ -41,37 +39,35 @@ body{
 			}
 }
 .letter-b{
-	width:100px; 
-	height:150px;
+	width: 50px;
+    height: 75px;
 }
 		.bstem{
 				background: white;
 				width: 35px;
 				height: 260px;
 				top: 20px;
-				left: 10px;
 		}
 		
 		.bcircleinside{
 				width:90px;
 				height:77.5px;
 				top: 20px;
-				left: 10px;
-				border-radius: 0px 75px 75px 0px;
-				border: 35px solid white;
+				border-radius: 0px 75px 75px 0px; /*https://www.w3schools.com/cssref/css3_pr_border-radius.asp*/
+				border: 35px solid white; /*https://www.w3schools.com/css/css_border.asp*/
 			}
 
 		.bcircleinside2{
 				width:90px;
 				height:77.5px;
 				top: 135px;
-				left: 10px;
 				border-radius: 0px 75px 75px 0px;
 				border: 35px solid white;
 			}
+
 .letter-c{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 		.c-outer{
 				background: white;
 				width:180px;
@@ -96,8 +92,8 @@ body{
 				left:150px;
 		}
 .letter-d{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.dstem{
 				background: white;
 				width: 100px;
@@ -129,8 +125,8 @@ body{
 				border-radius: 75px;
 			}
 .letter-e{
-	width:90px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.estem{
 				background: white;
 				width: 35px;
@@ -160,8 +156,8 @@ body{
 				left: 20px;
 			}
 .letter-f{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.fblock{
 				background: white;
 				width: 160px;
@@ -184,8 +180,8 @@ body{
 				left: 55px;
 			}
 .letter-g{
-	width:110px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 		.g-inside{
 				width:110px;
 				height:190px;
@@ -194,7 +190,7 @@ body{
 				border-radius: 75px 0 0 75px;
 				border-width: 35px;
 				border-style: solid;
-				border-color: white transparent white white;
+				border-color: white transparent white white; /*https://www.w3schools.com/css/css_border.asp*/
 			}
 		.g-midspace{
 				background: white;
@@ -218,8 +214,8 @@ body{
 				left:100px;
 		}
 .letter-h{
-	width:100px; 
-		height:150px;}
+	width:45px; 
+	height:75px;}
 			.hleft{
 				background: white;
 				width: 35px;
@@ -238,12 +234,12 @@ body{
 				background: white;
 				width: 90px;
 				height: 35px;
-				top: 125px;
+				top: 132.5px;
 				left: 55px;
 			}
 .letter-i{
-	width:60px; 
-	height:150px;}
+	width:30px; 
+	height:75px;}
 			.istem{
 				background: white;
 				width: 35px;
@@ -266,8 +262,8 @@ body{
 				left: 30px;
 			}
 .letter-j{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.jstem{
 				background: white;
 				width: 35px;
@@ -306,8 +302,8 @@ body{
 				border-radius: 75px;
 			}
 .letter-k{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.kstem{
 				background: white;
 				width: 35px;
@@ -332,8 +328,8 @@ body{
 				background: white;
 			}
 .letter-l{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.lstem{
 				background: white;
 				width: 35px;
@@ -349,8 +345,8 @@ body{
 				left: 20px;
 			}
 .letter-m{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.mstem{
 				background: white;
 				width: 35px;
@@ -382,8 +378,8 @@ body{
 				background: white;
 			}
 .letter-n{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.nstem{
 				background: white;
 				width: 35px;
@@ -407,8 +403,8 @@ body{
 				background: white;
 			}
 .letter-o{
-	width:90px; 
-	height:150px;}
+	width:35px; 
+	height:75px;}
 			.o-inside{
 				width:110px;
 				height:190px;
@@ -418,8 +414,8 @@ body{
 				border: 35px solid white;
 			}
 .letter-p{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.pstem{
 				background: white;
 				width: 70px;
@@ -459,8 +455,8 @@ body{
 				left:55px;
 			}
 .letter-q{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.q-outer{
 				background: white;
 				width:180px;
@@ -486,8 +482,8 @@ body{
 				background: white;
 			}
 .letter-r{
-	width:100px; 
-	height:150px;}
+	width:60px; 
+	height:75px;}
 			.rstem{
 				background: white;
 				width: 35px;
@@ -513,8 +509,8 @@ body{
 				background: white;
 			}
 .letter-s{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.s-upper {
 				background: white;
 				width:180px;
@@ -580,8 +576,8 @@ body{
 				left:0px;
 			}
 .letter-t{
-	width:90px; 
-		height:150px;}
+	width:45px; 
+	height:75px;}
 			.tstem{
 				background: white;
 				width: 35px;
@@ -597,8 +593,8 @@ body{
 				left: 20px;
 			}
 .letter-u{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.u-outer{
 				background: white;
 				width:180px;
@@ -616,8 +612,8 @@ body{
 				border-radius: 0px 0px 50px 50px;
 			}
 .letter-v{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.vleft {
 				top: 20px;
 				left: 125px;
@@ -635,12 +631,12 @@ body{
 				background: white;
 			}
 .letter-w{
-	width: 175px;
-	height:150px;
+	width: 82px;
+	height:75px;
 }
 			.wleft {
 				top: 100px;
-				left: 125px;
+				left: 100px;
 				width: 35px;
 				height: 180px;
 				transform: skew(-15deg);
@@ -648,7 +644,7 @@ body{
 			}
 			.wright {
 				top: 20px;
-				left: 60px;
+				left: 35px;
 				width: 35px;
 				height: 260px;
 				transform: skew(15deg);
@@ -656,7 +652,7 @@ body{
 			}		
 			.wleft2 {
 				top: 20px;
-				left: 240px;
+				left: 215px;
 				width: 35px;
 				height: 260px;
 				transform: skew(-15deg);
@@ -664,15 +660,15 @@ body{
 			}
 			.wright2 {
 				top: 100px;
-				left: 175px;
+				left: 150px;
 				width: 35px;
 				height: 180px;
 				transform: skew(15deg);
 				background: white;
 			}
 .letter-x{
-	width:100px; 
-		height:150px;}
+	width:50px; 
+	height:75px;}
 			.xleft {
 				top: 20px;
 				left: 80px;
@@ -690,8 +686,8 @@ body{
 				background: white;
 			}	
 .letter-y{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.yleft {
 				top: 20px;
 				left: 80px;
@@ -709,8 +705,8 @@ body{
 				background: white;
 			}		
 .letter-z{
-	width:100px; 
-	height:150px;}
+	width:50px; 
+	height:75px;}
 			.zleft {
 				top: 55px;
 				left: 80px;
@@ -733,3 +729,31 @@ body{
 				top: 245px;
 				left: 20px;
 			}
+.dash{
+	width:50px; 
+	height:75px;
+	}
+			.dashh{
+				background: white;
+				width: 150px;
+				height: 35px;
+				top: 130px;
+				left: 18px;
+			}
+
+.line{
+    width: 2px;
+    height: 175px;
+    background-color:#F64C72;
+    position: absolute;
+    margin-top: -196px;
+    margin-left: 340px;
+}
+.line2{
+    width: 2px;
+    height: 175px;
+    background-color:#F64C72;
+    position: absolute;
+    margin-top: -196px;
+    margin-left: 675px;
+}

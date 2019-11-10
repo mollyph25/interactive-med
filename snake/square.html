@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DRAGGGGGG</title>
+  <link rel="stylesheet" href="//code.jquery.com/square ui/1.12.1/themes/base/jquery-square ui.css">
+  
+  <link rel="stylesheet" href="trial.css">
+
+  <style>
+    body {
+      margin:0;
+    }
+  #sortable { list-style-type: none; margin: 0; padding: 0; width:100vw; }
+  #sortable li { box-sizing:border-box; margin: 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; height:10vw!important;width:10vw!important; color:#FFF;}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    for(var i = 0; i<50; i++){
+      var random = Math.floor(Math.random() * 50);
+      var index = i +1;
+      $("#box"+index).css("order", random);
+    }; 
+
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+
+
+  } );
+  </script>
+</head>
+<body>
+ 
+<ul id="sortable">
+  
+  <li class="square ui-state-default"  id="box1"></li>
+  <li class="square ui-state-default"  id="box2"></li>
+  <li class="square ui-state-default"  id="box3"></li>
+  <li class="square ui-state-default"  id="box4"></li>
+  <li class="square ui-state-default"  id="box5"></li>
+  <li class="square ui-state-default"  id="box6"></li>
+  <li class="square ui-state-default"  id="box7"></li>
+  <li class="square ui-state-default"  id="box8"></li>
+  <li class="square ui-state-default"  id="box9"></li>
+  <li class="square ui-state-default"  id="box10"></li>
+  <li class="square ui-state-default"  id="box11"></li>
+  <li class="square ui-state-default"  id="box12"></li>
+  <li class="square ui-state-default"  id="box13"></li>
+  <li class="square ui-state-default"  id="box14"></li>
+  <li class="square ui-state-default"  id="box15"></li>
+  <li class="square ui-state-default"  id="box16"></li>
+  <li class="square ui-state-default"  id="box17"></li>
+  <li class="square ui-state-default"  id="box18"></li>
+  <li class="square ui-state-default"  id="box19"></li>
+  <li class="square ui-state-default"  id="box20"></li>
+  <li class="square ui-state-default"  id="box21"></li>
+  <li class="square ui-state-default"  id="box22"></li>
+  <li class="square ui-state-default"  id="box23"></li>
+  <li class="square ui-state-default"  id="box24"></li>
+  <li class="square ui-state-default"  id="box25"></li>
+  <li class="square ui-state-default"  id="box26"></li>
+  <li class="square ui-state-default"  id="box27"></li>
+  <li class="square ui-state-default"  id="box28"></li>
+  <li class="square ui-state-default"  id="box29"></li>
+  <li class="square ui-state-default"  id="box30"></li>
+  <li class="square ui-state-default"  id="box31"></li>
+  <li class="square ui-state-default"  id="box32"></li>
+  <li class="square ui-state-default"  id="box33"></li>
+  <li class="square ui-state-default"  id="box34"></li>
+  <li class="square ui-state-default"  id="box35"></li>
+  <li class="square ui-state-default"  id="box36"></li>
+  <li class="square ui-state-default"  id="box37"></li>
+  <li class="square ui-state-default"  id="box38"></li>
+  <li class="square ui-state-default"  id="box39"></li>
+  <li class="square ui-state-default"  id="box40"></li>
+  <li class="square ui-state-default"  id="box41"></li>
+  <li class="square ui-state-default"  id="box42"></li>
+  <li class="square ui-state-default"  id="box43"></li>
+  <li class="square ui-state-default"  id="box44"></li>
+  <li class="square ui-state-default"  id="box45"></li>
+  <li class="square ui-state-default"  id="box46"></li>
+  <li class="square ui-state-default"  id="box47"></li>
+  <li class="square ui-state-default"  id="box48"></li>
+  <li class="square ui-state-default"  id="box49"></li>
+  <li class="square ui-state-default"  id="box50"></li>
+</ul>
+ 
+
+
+</div> 
+ 
+</body>
+</html>

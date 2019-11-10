@@ -1,0 +1,85 @@
+body{ background-color:  black;}
+
+.gradient{
+	width: 1200px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 115px;
+    background-image: linear-gradient(to right, #5164AE , #EB314C) ;
+}
+.gradient-2{
+	width: 1200px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 115px;
+    background-image: linear-gradient(to right, #5164AE , #EB314C) ;
+}
+
+.container {
+    width: 1200px;
+    height: 620px;
+    display: grid; 
+    grid-template-columns: repeat(10,120px);
+    grid-template-rows: repeat(5,120px);
+    margin-top: 20px;
+    margin-left: 75px;
+    font-family: source-sans-pro, sans-serif;
+	font-size: 70pt;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.container2{
+ 	width: 1200px;
+    height: 620px;
+    display: grid; 
+    grid-template-columns: repeat(10,120px);
+    grid-template-rows: repeat(5,120px);
+    margin-top: -714px;
+    margin-left: 115px;
+    position:relative;
+    z-index:-1;
+ }
+
+.square{
+	width:120px;
+	height: 120px;
+}
+#box1, #box11, #box21, #box31, #box41{
+	background-image: linear-gradient(to right, #5065AE , #6763A3);
+}
+#box2, #box12, #box22, #box32, #box42{
+	background-image: linear-gradient(to right, #6663A3 , #7C6098);
+}
+#box3, #box13, #box23, #box33, #box43{
+	background-image: linear-gradient(to right, #7A5F98 , #885D8F);
+}
+#box4, #box14, #box24, #box34, #box44{
+	background-image: linear-gradient(to right, #895D8F , #9C5886);
+}
+#box5, #box15, #box25, #box35, #box45{
+	background-image: linear-gradient(to right, #985885 , #A9557D);
+}
+#box6, #box16, #box26, #box36, #box46{
+	background-image: linear-gradient(to right, #A6547C , #B65073);
+}
+#box7, #box17, #box27, #box37, #box47{
+	background-image: linear-gradient(to right, #B45072 , #C64968);
+}
+#box8, #box18, #box28, #box38, #box48{
+	background-image: linear-gradient(to right, #C34968 , #CF435F);
+}
+#box9, #box19, #box29, #box39, #box49{
+	background-image: linear-gradient(to right, #CF435F , #DD3955);
+}
+#box10, #box20, #box30, #box40, #box50{
+	background-image: linear-gradient(to right, #DE3955 , #EA324E);
+}
+
+.dropSquare{
+	width:120px;
+	height: 120px;
+	background-color: #53565A;
+}
+

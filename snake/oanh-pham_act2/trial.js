@@ -1,14 +1,3 @@
-/*jQuery.fn.swap = function(b){ 
-    // method from: http://blog.pengoworks.com/index.cfm/2008/9/24/A-quick-and-dirty-swap-method-for-jQuery
-    b = jQuery(b)[0]; 
-    var a = this[0]; 
-    var t = a.parentNode.insertBefore(document.createTextNode(''), a); 
-    b.parentNode.insertBefore(a, b); 
-    t.parentNode.insertBefore(b, t); 
-    t.parentNode.removeChild(t); 
-    return this; 
-};*/
-
 for(var i = 0; i<50; i++){
 	var random = Math.floor(Math.random() * 50);
 	var index = i +1;
@@ -16,15 +5,32 @@ for(var i = 0; i<50; i++){
 }; 
 
 
-$( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/draggable/#snap-to*/
-      revert: "invalid",
-      snap: ".dropSquare",
-      snapMode: "inner",
-      snapTolerance: 40
-});
+$(document).ready(function () {
 
-	/*$(".square").droppable({
-        accept: $(".square"),
+    var box = $(".square");
+    var mainCanvas = $(".container");
+
+    box.draggable({
+        containment: mainCanvas,
+        helper: "clone",
+
+        start: function () {
+            $(this).css({
+                opacity: 0
+            });
+
+            $(".box").css("z-index", "0");
+        },
+
+        stop: function () {
+            $(this).css({
+                opacity: 1
+            });
+        }
+    });
+
+    box.droppable({
+        accept: box,
 
         drop: function (event, ui) {
             var draggable = ui.draggable;
@@ -32,21 +38,28 @@ $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/dragg
             var dragPos = draggable.position();
             var dropPos = droppable.position();
 
-        draggable.css({
-            left: dropPos.left+'px',
-            top: dropPos.top+'px'
-        });
+            draggable.css({
+                left: dropPos.left + "px",
+                top: dropPos.top + "px",
+                "z-index": 20
+            });
 
-        droppable.css({
-            left: dragPos.left+'px',
-            top: dragPos.top+'px'
-        });
-        draggable.swap(droppable);
+            droppable.css("z-index", 10).animate({
+                left: dragPos.left,
+                top: dragPos.top
+            });
         }
     });
 
 });
+
 /*
+$( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/draggable/#snap-to
+      revert: "invalid",
+      snap: ".dropSquare",
+      snapMode: "inner",
+      snapTolerance: 40
+    });
 $(".dropSquare").droppable({
 	drop: function (event, ui) {
             var draggable = ui.draggable;

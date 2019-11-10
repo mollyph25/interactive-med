@@ -1,19 +1,10 @@
-/*jQuery.fn.swap = function(b){ 
-    // method from: http://blog.pengoworks.com/index.cfm/2008/9/24/A-quick-and-dirty-swap-method-for-jQuery
-    b = jQuery(b)[0]; 
-    var a = this[0]; 
-    var t = a.parentNode.insertBefore(document.createTextNode(''), a); 
-    b.parentNode.insertBefore(a, b); 
-    t.parentNode.insertBefore(b, t); 
-    t.parentNode.removeChild(t); 
-    return this; 
-};*/
-
 for(var i = 0; i<50; i++){
 	var random = Math.floor(Math.random() * 50);
 	var index = i +1;
 	$("#box"+index).css("order", random);
 }; 
+
+
 
 
 $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/draggable/#snap-to*/
@@ -22,11 +13,10 @@ $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/dragg
       snapMode: "inner",
       snapTolerance: 40
 });
-
-	/*$(".square").droppable({
-        accept: $(".square"),
-
-        drop: function (event, ui) {
+/*
+$(".square").droppable({
+    accept: $(".square"),
+    drop: function (event, ui) {
             var draggable = ui.draggable;
             var droppable = $(this);
             var dragPos = draggable.position();
@@ -45,7 +35,7 @@ $( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/dragg
         }
     });
 
-});
+});*/
 /*
 $(".dropSquare").droppable({
 	drop: function (event, ui) {

@@ -1,0 +1,101 @@
+body{
+	background-color:  white;
+	color: black;
+	margin: 0px;
+}
+h{
+	text-transform: uppercase;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    letter-spacing: 2px;
+}
+h2{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; 
+    font-size: 14pt;
+    color: black;
+    letter-spacing: 0.5px;
+}
+h3{
+    text-transform: uppercase;
+    position: relative;
+    margin: 50px 0px -10px 20px;
+    text-align: left;
+    font-family: titling-gothic-fb-compressed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    letter-spacing: 2px;
+}
+p{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; 
+    font-size: 14pt;
+    color: black;
+    letter-spacing: 0.5px;
+}
+img{
+    margin: 20px 20px 50px 20px;
+}
+ol{
+    position: relative;
+    margin-top: 0px;
+    margin-left: -60px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; 
+    font-size: 14pt;
+    color: black;
+    letter-spacing: 0.5px;
+}
+li{
+    position: relative;
+    margin-top: -5px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 21pt; 
+    font-size: 14pt;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height:100px;
+    color: white;
+    text-align: left;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14pt;
+}
+#box1{background-color: #12c2e9;}
+#box2{background-color: #c471ed;}
+#box3{background-color: #f64f59;}
+#box4{background-color: #D66D75;}
+#box5{background-color: #5614B0;}
+#box6{background-color: #000046;}

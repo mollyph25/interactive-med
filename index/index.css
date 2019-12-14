@@ -1,0 +1,266 @@
+.header {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0 20px 0 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+  float: right;
+}
+
+.header a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/*reading response*/
+.container, .container2, .container3{
+  display: grid;
+  grid-template-areas:
+    'item1 item2 item3'
+    'item1 item2 item3'
+    'item1 item2 item3';
+  padding: 30px 50px 0 10px;
+  grid-gap: 50px;
+}
+#number, #so01, #so02 {
+  font-size: 500px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lightblue;
+}
+#rr01{
+  margin-top: 75px;
+}
+h{
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 60px;
+  color: lightblue; 
+}
+h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 45px;
+  color: grey; 
+}
+p{
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+}
+a{
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+}
+.line1{
+  margin-top: 83px;
+  width: 50px;
+  height: 950px;
+  background-image: linear-gradient(lightblue, lightpink);
+}
+
+#number2{
+  font-size: 500px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lightpink;
+  margin-top: -73px;
+}
+
+.line2{
+  width: 50px;
+  height: 1000px;
+  background-image: linear-gradient(lightpink, lavender);
+}
+
+#rr02 h{
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 60px;
+  color: lightpink; 
+}
+
+#number3 {
+  margin-top: -72px;
+  font-size: 500px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lavender;
+}
+
+.line3{
+
+  width: 50px;
+  height: 800px;
+  background-image: linear-gradient(lavender, lightblue);
+}
+
+#rr03 h{
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 60px;
+  color: lavender; 
+}
+
+/*tableau*/
+.t1, .t2{
+  display: grid;
+  grid-template-areas:
+    'item1 item2 item3'
+    'item1 item2 item3'
+    'item1 item2 item3';
+  padding: 80px 50px 0 10px;
+  grid-gap: 50px;
+}
+.t1 img, .t2 img{
+  width: 500px;
+  height:auto;
+  margin-top: 82px;
+}
+
+#nd{
+  margin-top: 77px;
+}
+
+/*acts*/
+#so01 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 75px;
+  color: grey; 
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.me a {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 45px;
+  color: white; 
+  padding-left: 10px;
+  text-decoration: none;
+}
+#ct h{
+  color: lightblue;
+  font-size: 100px;
+}
+
+#ct2 h {
+  color: lightpink;
+  font-size: 100px;
+}
+
+#ct3 h{
+  color: lavender;
+  font-size: 100px;
+}
+.color1{
+  background-color: lightblue;
+  margin-top: 20px;
+  width: 100%;
+}
+.color2{
+  background-color: lightpink;
+  margin-top: 20px;
+  width: 100%;
+}
+.color3{
+  background-color: lavender;
+  margin-top: 20px;
+  width: 100%;
+}
+body{
+  background-color: white;
+}
+
+/*references*/
+.ctent{
+  margin-top: 70px;
+  position: absolute;
+}
+.ctent a{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px; 
+  line-height: 45px;
+  color: black; 
+  padding-left: 10px;
+  text-decoration: none;
+}
+/*index*/
+.name{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-image: linear-gradient(lightblue, lightpink, lavender);
+}
+.box{
+  height: 350px;
+  color: transparent;
+}
+.name h {
+  text-transform: uppercase;
+  font-size: 150px;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px; 
+  line-height: 45px;
+  color: black; 
+  padding-left: 20px;
+  text-decoration: none;
+  }
+
+
+

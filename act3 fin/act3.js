@@ -11,7 +11,7 @@ $(document).ready(function(){
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	new ScrollMagic.Scene({
+	new ScrollMagic.Scene({ //referenced from scroll magic tutorial file: reveal on scroll
 						triggerElement: "#trigger1",
 						triggerHook: 0.6, // show, when scrolled 10% into view
 						duration: "0%", // hide 10% before exiting view (80% + 10% from bottom)
@@ -91,7 +91,7 @@ $(document).ready(function(){
 					.addIndicators() // add indicators (requires plugin)
 					.addTo(controller);
 					
-	var pinIntroScene = new ScrollMagic.Scene({
+	var pinIntroScene = new ScrollMagic.Scene({ //referenced from sticky element: pinning from scrollmagic
 						triggerElement: '#intro',
 						duration: 4300,
 						triggerHook: 0.01,

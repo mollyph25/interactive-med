@@ -163,7 +163,9 @@ p{
 }
 
 #reveal1 p, #reveal2 p, #reveal3 p {
-  column-width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 #reveal1 {

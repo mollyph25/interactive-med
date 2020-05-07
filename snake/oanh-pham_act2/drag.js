@@ -1,19 +1,25 @@
-for(var i = 0; i<50; i++){
+/*for(var i = 0; i<50; i++){
 	var random = Math.floor(Math.random() * 50);
 	var index = i +1;
 	$("#box"+index).css("order", random);
-}; 
+}; */
 
+$( ".square" ).draggable({
 
+        start: function () {
+            $(this).css({
+                opacity: 0
+            });
 
+            $(".square").css("z-index", "0");
+        },
 
-$( ".square" ).draggable({ /* this is referenced from https://jqueryui.com/draggable/#snap-to*/
-      revert: "invalid",
-      snap: ".dropSquare",
-      snapMode: "inner",
-      snapTolerance: 40
-});
-/*
+        stop: function () {
+            $(this).css({
+                opacity: 1
+            });
+        }
+    });
 $(".square").droppable({
     accept: $(".square"),
     drop: function (event, ui) {
@@ -32,10 +38,9 @@ $(".square").droppable({
             top: dragPos.top+'px'
         });
         draggable.swap(droppable);
-        }
-    });
+    }
+});
 
-});*/
 /*
 $(".dropSquare").droppable({
 	drop: function (event, ui) {
